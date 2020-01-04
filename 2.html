@@ -3,20 +3,50 @@
 <head>
     <title>하스스톤-전장</title>
     <meta charset="UTF-8">
+    <style>
+        body{
+            margin: 0px;
+        }
+        h1{
+            border-bottom:1px solid grey;
+            margin:0px;
+            padding: 20px;
+        }
+        ul{
+            border-right:1px solid grey;
+            margin:0px;
+            width:150px;
+            padding: 25px;
+        }
+        #grid{
+            display: grid;
+            grid-template-columns: 208px 1fr;
+        }
+        #grid ul{
+            padding-left: 33px;
+        }
+        #article{
+            padding: 10px
+        }
+    </style>
 </head>
 <body>
     <h1><a href="index.html">하스스톤</a></h1>
-    <ul>
-        <li><a href="1.html">대전</a></li>
-        <li><a href="2.html">전장</a></li>
-        <li><a href="3.html">투기장</a></li>
-        <li><a href="4.html">선술집 난투</a></li>
-        <li><a href="5.html">모험 모드</a></li>
-    </ul>
-    <h2>전장</h2>
-    <H3>전장이란?</H3>
-    <p>용의 강림 팩과 함께 업데이트된 <strong><a href="https://playhearthstone.com/ko-kr/" target="blank" title="하스스톤 공식 홈페이지">하스스톤</a>의 <u>새로운 게임 모드</u>이다. </strong> 하스스톤 메인 화면에 투기장 버튼이 사라지고 모드라는 버튼이 생겨, 투기장과 전장을 선택할 수 있는 화면으로 이어진다.</p>
-    <img src="battlegroundImage.jpg">
-    <p>2019년 11월 6일 오전 3시부터 용의 강림 팩을 예약구매하거나 블리즈컨 가상입장권을 보유했을 경우 사전체험 형식으로 미리 플레이 해 볼 수 있었고, 11월 13일 이후로는 모든 유저들이 오픈베타에 참여해 플레이할 수 있다.</p>
+    <div id="grid">
+        <ul>
+            <li><a href="1.html">대전</a></li>
+            <li><a href="2.html">전장</a></li>
+            <li><a href="3.html">투기장</a></li>
+            <li><a href="4.html">선술집 난투</a></li>
+            <li><a href="5.html">모험 모드</a></li>
+        </ul>
+        <div id="article">
+            <h2>전장</h2>
+            <H3>전장이란?</H3>
+            <p>용의 강림 팩과 함께 업데이트된 <strong><a href="https://playhearthstone.com/ko-kr/" target="blank" title="하스스톤 공식 홈페이지">하스스톤</a>의 <u>새로운 게임 모드</u>이다. </strong> 하스스톤 메인 화면에 투기장 버튼이 사라지고 모드라는 버튼이 생겨, 투기장과 전장을 선택할 수 있는 화면으로 이어진다.</p>
+            <img src="battlegroundImage.jpg">
+            <p>2019년 11월 6일 오전 3시부터 용의 강림 팩을 예약구매하거나 블리즈컨 가상입장권을 보유했을 경우 사전체험 형식으로 미리 플레이 해 볼 수 있었고, 11월 13일 이후로는 모든 유저들이 오픈베타에 참여해 플레이할 수 있다.</p>
+        </div>
+    </div>
 </body>
 </html>
